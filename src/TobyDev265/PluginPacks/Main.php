@@ -74,7 +74,7 @@ class Main extends PluginBase {
             }
             }
         }
-        return 0;
+        return true;
     }
     public function unknownCmd($sender) {
         $sender->sendMessage(C::RED . "Please type: /pluginpacks help");
