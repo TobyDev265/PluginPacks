@@ -1,6 +1,6 @@
 name: PluginPacks
 author: TobyDev265
-version: 1.0.1
+version: 1.2.0
 description: Install plugin packs for your server
 depend: Sheep
 api: [3.0.0]

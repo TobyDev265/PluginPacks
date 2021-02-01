@@ -16,7 +16,7 @@ class Main extends PluginBase {
                 } else {
                 switch($args[0]) {
                     case "list":
-                        $sender->sendMessage("Prison <1>\nSkyblock <2>");
+                        $sender->sendMessage(C::GREEN . "Available packs:\n" . C::YELLOW . "<1> Prison\n" . C::YELLOW . "<2> Skyblock\n" . C::YELLOW . "<3> SkyWars\n" . C::YELLOW . "<4> BedWars");
                         break;
                     case "install":
                         switch($args[1]) {
@@ -36,6 +36,18 @@ class Main extends PluginBase {
                                     $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "install " . $p);
                                 }
                                 break;
+                                case 3:
+                                    $plugin = ["MultiWorld", "BuilderTools", "FormAPI", "BedWars"];
+                                    foreach($plugin as $p) {
+                                        $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "install " . $p);
+                                    }
+                                    break;
+                                case 4:
+                                    $plugin = ["MultiWorld", "BuilderTools", "FormAPI", "SkyWars"];
+                                    foreach($plugin as $p) {
+                                        $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "install " . $p);
+                                    }
+                                    break;
                             default:
                                 $sender->sendMessage(C::RED . "Cannot find plugin pack!");
                                 break;
@@ -55,6 +67,18 @@ class Main extends PluginBase {
                                 // Skyblock
                                 // Include: MultiWorld, SkyBlock, EconomyAPI, FormAPI, CustomShopUI, ScoreHud, EC-TableUI
                                 $plugin = ["MultiWorld", "SkyBlock", "FormAPI", "EconomyAPI", "CustomShopUI", "ScoreHud", "EC-TableUI"];
+                                foreach($plugin as $p) {
+                                    $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "uninstall " . $p);
+                                }
+                                break;
+                            case 3:
+                                $plugin = ["MultiWorld", "BuilderTools", "FormAPI", "BedWars"];
+                                foreach($plugin as $p) {
+                                    $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "uninstall " . $p);
+                                }
+                                break;
+                            case 4:
+                                $plugin = ["MultiWorld", "BuilderTools", "FormAPI", "SkyWars"];
                                 foreach($plugin as $p) {
                                     $this->getServer()->dispatchCommand(new ConsoleCommandSender(), "uninstall " . $p);
                                 }
