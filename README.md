@@ -1,4 +1,4 @@
-![PoggitCI](https://poggit.pmmp.io/ci.badge/TobyDev265/PluginPacks/PluginPacks)
+[![Build Status](https://travis-ci.com/TobyDev265/PluginPacks.svg?branch=main)](https://travis-ci.com/TobyDev265/PluginPacks)
 ![GitHub all releases](https://img.shields.io/github/downloads/TobyDev265/PluginPacks/total)
 ![GitHub](https://img.shields.io/github/license/TobyDev265/PluginPacks)
 # PluginPacks v1.0.1
