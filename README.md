@@ -7,7 +7,9 @@
 - Download plugin from <a href="https://poggit.pmmp.io/r/114542/PluginPacks_dev-4.phar">here.</a>
 - Move it to PocketMine plugin folder.
 # Available packs
-- <1> Prison (plugin packs for Prison server)
-- <2> Skyblock (plugin packs for Skyblock server)
-- <3> BedWars (plugin packs for BedWars server)
-- <4> SkyWars (plugin packs for Skywars server)
+| ID |   Type   |                                    Include                                    |
+|:--:|:--------:|:-----------------------------------------------------------------------------:|
+|  1 |  Prison  |         Prisons, PurePerms, PureChat, EconomyAPI, MineReset, ScoreHud         |
+|  2 | SkyBlock | MultiWorld, SkyBlock, FormAPI, EconomyAPI, CustomShopUI, ScoreHud, EC-TableUI |
+|  3 |  BedWars |                                    MultiWorld, BuilderTools, FormAPI, BedWars |
+|  4 |  SkyWars |                   MultiWorld, BuilderTools, FormAPI, SkyWars                  |
