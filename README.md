@@ -1,8 +1,12 @@
 [![Build Status](https://travis-ci.com/TobyDev265/PluginPacks.svg?branch=main)](https://travis-ci.com/TobyDev265/PluginPacks)
 ![GitHub all releases](https://img.shields.io/github/downloads/TobyDev265/PluginPacks/total)
 ![GitHub](https://img.shields.io/github/license/TobyDev265/PluginPacks)
-# PluginPacks v1.2.0
-**Install plugin packs for your server.**
+# PluginPacks v1.2.01
+**Install plugin packs for your server.*
+
+# Usage
+```pluginpacks install <pack_id>``` to install pack  
+```pluginpacks remove <pack_id>``` to remove pack  
 # Installation
 - Download plugin from <a href="https://poggit.pmmp.io/r/114542/PluginPacks_dev-4.phar">here.</a>
 - Move it to PocketMine plugin folder.

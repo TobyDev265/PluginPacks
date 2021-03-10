@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PluginPacks v1.2.0
+ * PluginPacks v1.2.1
  * Copyright TobyDev265
  * Released under the GNU General Public License v2.0 license
  * https://github.com/TobyDev265/PluginPacks/blob/main/LICENSE
