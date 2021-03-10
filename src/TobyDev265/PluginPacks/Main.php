@@ -15,6 +15,13 @@ use pocketmine\command\{Command, CommandSender, ConsoleCommandSender};
 use pocketmine\utils\TextFormat as C;
 
 class Main extends PluginBase {
+    public function onEnable() {
+        $this->sheep = $this->getServer()->getPluginManager()->getPlugin("Sheep");
+        if(!$this->sheep) {
+            $this->getLogger()->error(C::RED . "Unable to find SimpleAuth plugin");
+            return;
+        }
+    }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
         if($cmd->getName() == "pluginpacks") {
             if(!$sender instanceof Player) {
