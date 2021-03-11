@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PluginPacks v1.2.1
+ * PluginPacks v1.2.2
  * Copyright TobyDev265
  * Released under the GNU General Public License v2.0 license
  * https://github.com/TobyDev265/PluginPacks/blob/main/LICENSE
@@ -16,9 +16,8 @@ use pocketmine\utils\TextFormat as C;
 
 class Main extends PluginBase {
     public function onEnable() {
-        $this->sheep = $this->getServer()->getPluginManager()->getPlugin("Sheep");
-        if(!$this->sheep) {
-            $this->getLogger()->error(C::RED . "Unable to find SimpleAuth plugin");
+        if(!$this->getServer()->getPluginManager()->getPlugin("Sheep")) {
+            $this->getLogger()->error(C::RED . "Unable to find Sheep plugin");
             return;
         }
     }
