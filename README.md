@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/TobyDev265/PluginPacks.svg?branch=main)](https://travis-ci.com/TobyDev265/PluginPacks)
 ![GitHub all releases](https://img.shields.io/github/downloads/TobyDev265/PluginPacks/total)
 ![GitHub](https://img.shields.io/github/license/TobyDev265/PluginPacks)
+[![Discord](https://img.shields.io/discord/821713643170430978.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/dXZNYu2yxx)
 # PluginPacks v1.2.2
 **Install plugin packs for your server.*
 
